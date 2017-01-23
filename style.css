@@ -1,0 +1,54 @@
+
+body {
+  font-family: 'BenchNine', sans-serif;
+  background-color: #fbf8e5;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header, footer {
+  width: 100%;
+  height: 50px;
+  background: #000000;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 30px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav, aside {
+  background-color: grey;
+  color: white;
+}
+
+h1 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 64px;
+  text-align: center;
+}
+
+main  {
+  font-size: 34px;
+  text-align: center;
+}
+
+.about, .sidebar  {
+  width: 100px;
+  background: #dbdbdb;
+  color: #000000;
+  border-radius: 10px;
+  margin: 5px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.follow {
+  color: white;
+}
